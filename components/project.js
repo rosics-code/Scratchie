@@ -41,7 +41,7 @@ function project(information) {
                     },
                     {
                         type: 10,
-                        content: `**${emojis.view} ${information.stats.views} ${emojis.remix} ${information.stats.remixes} ${emojis.love} ${information.stats.loves} ${emojis.favorite} ${information.stats.favorites}**`
+                        content: `**${emojis.love} ${information.stats.loves} ${emojis.favorite} ${information.stats.favorites} ${emojis.remix} ${information.stats.remixes} ${emojis.views} ${information.stats.views}**`
                     },
                     {
                         type: 1,
