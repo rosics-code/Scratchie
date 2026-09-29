@@ -252,8 +252,7 @@ async function captureHelp(message) {
         "help with",
         "i need help",
         "i need support",
-        "can you guide me",
-        "guide me"
+        "can you guide me"
     ];
 
     if (keyphrases.some(phrase =>
