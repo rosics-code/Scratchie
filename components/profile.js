@@ -65,6 +65,9 @@ function profile(information) {
                             new ButtonBuilder()
                                 .setStyle(ButtonStyle.Link)
                                 .setLabel("Profile")
+                                .setEmoji({
+                                "name": "👤",
+                                })
                                 .setURL(`https://scratch.mit.edu/users/${information.username}/`)
                         )
                 )
